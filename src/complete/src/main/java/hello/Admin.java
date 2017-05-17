@@ -6,8 +6,6 @@ import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import java.util.*;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-@XmlRootElement(name="newobject11")
-@JsonSerialize(include=JsonSerialize.Inclusion.NON_NULL)
 public class Admin {
 	
     private String id;
