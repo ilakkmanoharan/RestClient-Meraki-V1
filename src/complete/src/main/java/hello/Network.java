@@ -4,6 +4,10 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import javax.xml.bind.annotation.XmlRootElement;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
+/* Copyright (C) 2017 Ilakkuvaselvi Manoharan - All Rights Reserved
+ * 
+ */
+
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Network {
 	
