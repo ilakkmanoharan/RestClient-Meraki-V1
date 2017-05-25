@@ -5,6 +5,10 @@ import javax.xml.bind.annotation.XmlRootElement;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import java.util.*;
 
+/* Copyright (C) 2017 Ilakkuvaselvi Manoharan - All Rights Reserved
+ * 
+ */
+
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Admin {
 	
